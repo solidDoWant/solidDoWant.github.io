@@ -1,3 +1,35 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+.search-circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #008A3C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.search-icon {
+	width: 27px;
+	height: 28px;
+}
+
+.search-icon > div:first-child{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+}
+
+.search-icon > div:nth-child(2) {
+	width: 2px;
+	height: 15px;
+	background-color: white;
+	transform: translate(20px, -6px) rotate(-45deg);
+	margin: 0;
+}
