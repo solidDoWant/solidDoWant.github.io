@@ -12,9 +12,21 @@
 	cursor: pointer;
 }
 
-.search-circle:hover {
+.search-circle > input {
+	display: none;
+}
+
+.search-circle:hover, 
+.search-circle:focus, 
+.search-circle:active {
 	width: 80%;
-	border-radius: 20%;
+	border-radius: 10px;
+}
+
+.search-circle:hover > input, 
+.search-circle:focus > input, 
+.search-circle:active > input {
+	display: flex;
 }
 
 .search-icon {
