@@ -18,14 +18,16 @@
 
 .search-circle:hover, 
 .search-circle:focus, 
-.search-circle:active {
+.search-circle:active,
+.search-circle:focus-within {
 	width: 80%;
 	border-radius: 10px;
 }
 
 .search-circle:hover > input, 
 .search-circle:focus > input, 
-.search-circle:active > input {
+.search-circle:active > input,
+.search-circle:focus-within > input {
 	display: flex;
 }
 
